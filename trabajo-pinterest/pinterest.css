@@ -1,0 +1,81 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(255, 255, 255);
+    height: 10vh;
+    padding-left: 10px;
+}
+
+header p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 10px;
+    height: 60%;
+    width: 40px;
+}
+
+header p:hover{
+    color: aliceblue;
+    cursor: pointer;
+    background-color: black;
+
+}
+
+.buscador{
+    background-image:url(imagenes/lupa.png) ;
+    background-size: 20px 20px;
+    background-position: 5px 3px;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 50%;
+    font-size: 20px;
+    height: 50;
+    padding-left: 30px;
+    border-radius: 20px;
+    border: 1px solid black
+    
+}
+
+.lupita{
+    position: absolute;
+    top: calc(50%);
+    left: calc(0% + 20px);
+}
+
+.logopinterest{
+    height: 60%;
+    transition: 0.5s;
+
+}
+
+.logopinterest:hover{
+    cursor: pointer;
+    height: 80%;
+    
+}
+
+
+main{
+
+    background-color: rgb(91, 176, 207);
+    background-image: url("");
+    height: 70vh;
+}
+
+footer{
+
+    background-color: coral;
+    height: 20vh;
+}
