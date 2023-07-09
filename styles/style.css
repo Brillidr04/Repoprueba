@@ -1,0 +1,23 @@
+header{background-color: blue;}
+
+main{background-color: bisque;}
+
+body{background-color: rgb(173, 51, 182);}
+
+img{border-radius: 50px;}
+
+div{text-align: center;}
+
+.le{background-color: brown;
+border: 1px;
+width: 80px;
+margin-top: 3px;
+margin-bottom: 3px;
+}
+
+.li {background-color: aliceblue;
+border: 1px;
+width: 70px;
+
+}
+
