@@ -110,12 +110,14 @@ main{
     column-gap: 2px;
     row-gap: 15px;
     padding: 40px;
+    
     }
     
     img{
         width: 270px;
         height: 270px;
         object-fit: contain;
+        border-radius: 500px;
     }
 
 .grid-container:hover{
